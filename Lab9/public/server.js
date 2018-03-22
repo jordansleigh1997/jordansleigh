@@ -14,3 +14,5 @@ var x = req.query.x;
 var y = req.query.y;
  res.send("X + Y="+(x+y));
 });
+
+app.use(express.static('public')) 
